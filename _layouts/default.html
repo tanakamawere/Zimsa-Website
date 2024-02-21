@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    {% include theme-toggler.html %}
+    {% include navbar.html %}
+
+    <main>
+        {{ content }}
+    </main>
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+    {% include footer.html %}
+</html>
