@@ -1,5 +1,5 @@
 ---
-layout: general-layout
+layout: default
 title: Executive Committee
 description: Information about the executive committee of Zimsa Website.
 image: /assets/img/logos/scome.png
