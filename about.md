@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: post-layout
 title: About Zimsa
 permalink: /about/
 ---
 
 # Introduction
 
-The Zimbabwe Medical Students Association (ZIMSA) is a https://wcea.education/zma?source_code=WS01 student-run organization that caters to the needs and aspirations of medical students in Zimbabwe.
+The Zimbabwe Medical Students Association (ZIMSA) is a student-run organization that caters to the needs and aspirations of medical students in Zimbabwe.
 
 # Mission
 

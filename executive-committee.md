@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Executive Committee
-date: 2022-09-01
-author: Your Name
 description: Information about the executive committee of Zimsa Website.
+permalink: "/executive-committee"
 ---
 
 <div class="container">
     <!-- Three columns of text below the carousel -->
-  <div class="row">
+    <div class="m-3 align-content-center text-center">
+      <h1>2023/2024 National Executive Committee</h1>
+      <p>The people you voted for...</p>
+    </div>
+  <div class="row mt-5">
 
     {% for member in site.data.execcommittee %}
         <div class="col-lg-4 text-center">
