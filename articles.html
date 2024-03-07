@@ -1,0 +1,22 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+---
+
+<div class="px-5 container">
+    <div class="container-fluid py-5">
+        <h2 class="display-6 fw-bold">All the Zimsa Articles</h2>
+        <p class="col-md-8 fs-6">
+            Read on what the organisation has been up to
+        </p>
+    </div>
+
+
+    <div class="row gx-5">
+        {% assign sorted = site.posts | sort: 'date' | reverse  %}
+        {% for post in sorted %}
+            {% include article-control.html %}
+        {% endfor %}
+    </div>
+</div>

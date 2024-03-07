@@ -2,12 +2,10 @@
 layout: program-layout
 title: Sexual & Reproductive Health and Rights including HIV & AIDS
 image: /assets/img/logos/scora.png
-description: ""
+description: "Something here"
+standing-committee: SCORA
 permalink: /scora/
-director-name: Michelle van der Heiden
-director-phone: 263714888342
-director-email: michellevanderh@outlook.com
-director-picture: /assets/img/committee-directors/scora.jpg
+member: 67
 ---
 
 The Zimbabwe Medical Student’s Association,

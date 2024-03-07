@@ -1,0 +1,13 @@
+<div class="col-lg-4">
+    <div class="card shadow-sm rounded">
+      <div class="position-relative">
+        <img src="{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+      </div>
+      <div class="card-body">
+        <h4 class="card-title"><strong>{{ post.title }}</strong> | <span class="badge text-bg-primary">{{ post.standing-committee }}</span></h4>
+        <p class="card-text fw-normal">{{ post.summary }}</p>
+        <p class="card-text fw-light fst-italic">{{ post.author }} | {{ post.date | date: "%d %B %Y" | date: "%A, %d %B %Y" }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+</div>

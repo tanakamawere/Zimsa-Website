@@ -1,0 +1,26 @@
+- name: Kuziva Zvokuomba
+  member: 90
+  position: President
+  image: kuziva.jpg
+  email: michellevanderh@outlook.com
+  phone-number: 263714888342
+  bio: Kuziva is a 4th year student studying Computer Science. She is passionate about technology and its potential to change the world. She is also a strong advocate for diversity and inclusion in the tech industry. In her free time, she enjoys reading, writing, and playing the guitar.
+  linkedin: https://www.linkedin.com/in/kuziva-zvokuomba/
+
+- name: Aman Bhargava
+  member: 89
+  position: Vice President
+  image: aman.jpg
+  email: michellevanderh@outlook.com
+  phone-number: 263714888342
+  bio: Aman is a 4th year student studying Computer Science. He is passionate about technology and its potential to change the world. He is also a strong advocate for diversity and inclusion in the tech industry. In his free time, he enjoys reading, writing, and playing the guitar.
+  linkedin: https://www.linkedin.com/in/aman-bhargava/
+
+- name: Michelle van der Heiden
+  member: 67
+  position: SCORA Director
+  image: /assets/img/committee-directors/scora.jpg
+  email: michellevanderh@outlook.com
+  phone-number: 263714888342
+  bio: Michelle is a 4th year student studying Computer Science. She is passionate about technology and its potential to change the world. She is also a strong advocate for diversity and inclusion in the tech industry. In her free time, she enjoys reading, writing, and playing the guitar.
+  linkedin: https://www.linkedin.com/in/michelle-van-der-heiden-2878ab14b

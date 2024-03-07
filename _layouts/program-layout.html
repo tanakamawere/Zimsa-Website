@@ -20,22 +20,41 @@ layout: default
     </div>
     <hr class="divider" />
 
+    
+
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             {{ content }}
-            <div class="row mt-5">
-                <div class="col-md-4">
-                  <img src="{{ page.director-picture }}" alt="Profile Picture" class="img-thumbnail rounded-circle mx-auto d-block">
-                </div>
-                <div class="col-md-8">
-                  <h2>Director: {{ page.director-name }}</h2>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="bi bi-telephone"></i> <a href="tel:{{ page.director-phone }}">{{ page.director-phone }}</a></li>
-                    <li class="list-group-item"><i class="bi bi-whatsapp"></i> <a href="https://wa.me/{{ page.director-phone }}">{{ page.director-phone }}</a></li>
-                    <li class="list-group-item"><i class="bi bi-envelope"></i> <a href="mailto:{{ page.director-email }}">{{ page.director-email }}</a></li>
-                  </ul>
-                </div>
-              </div>
+            
+            <div>
+                {% assign director = page.member %}
+                {% for member in site.data.execcommittee %}
+                    {% if member.member == director %}
+                        <div class="row mt-5">
+                            <div class="col-md-4">
+                            <img src="{{ member.image }}" alt="Profile Picture" class="img-thumbnail rounded-circle mx-auto d-block">
+                            </div>
+                            <div class="col-md-8">
+                            <h2>{{ member.position }}: {{ member.name }}</h2>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="bi bi-telephone"></i> <a href="tel:{{ member.phone-number }}">{{ member.phone-number }}</a></li>
+                                <li class="list-group-item"><i class="bi bi-whatsapp"></i> <a href="https://wa.me/{{ member.phone-number }}">{{ member.phone-number }}</a></li>
+                                <li class="list-group-item"><i class="bi bi-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
+    </div>
+
+    {% assign recentArticles = site.posts | where: "standing-committee", page.standing-committee | limit: 3 %}
+
+    <h2 class="display-6 fw-bold">Recent {{ page.standing-committee}} Articles</h2>
+    <div class="row">
+        {% for post in recentArticles %}
+            {% include article-control.html %}
+        {% endfor %}
     </div>
 </div>
