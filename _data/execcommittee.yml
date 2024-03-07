@@ -1,26 +1,71 @@
-- name: Kuziva Zvokuomba
-  member: 90
-  position: President
-  image: kuziva.jpg
-  email: michellevanderh@outlook.com
-  phone-number: 263714888342
-  bio: Kuziva is a 4th year student studying Computer Science. She is passionate about technology and its potential to change the world. She is also a strong advocate for diversity and inclusion in the tech industry. In her free time, she enjoys reading, writing, and playing the guitar.
-  linkedin: https://www.linkedin.com/in/kuziva-zvokuomba/
+- name: Joshua 'Bitches' Masanganise
+  member: 1002
+  position: Nice President of Internal Affairs
+  image: /assets/img/committee-members/joshua_masanganise.png
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
 
-- name: Aman Bhargava
+- name: Anna Munir
+  member: 1006
+  position: SCORE Director
+  image: /assets/img/committee-members/anna_munir.jpg
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+  
+- name: Catherine Chiware
+  member: 1050
+  position: Preclinical Representative
+  image: /assets/img/committee-members/catherine_chiware.jpg
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+  
+- name: Joseph Masunda
+  member: 1209
+  position: Secretary General
+  image: /assets/img/committee-members/joseph_masunda.jpg
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+  
+- name: Kimberley Nkoma
+  member: 1409
+  position: Imunzi Director
+  image: /assets/img/committee-members/kimberley_nkomo.jpg
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+  
+- name: Ropafadzo Chivende
+  member: 1111
+  position: Preclinical Representative
+  image: /assets/img/committee-members/ropafadzo_chivende.jpg
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+
+- name: David Yehudah
+  member: 1001
+  position: Program Co-ordinator
+  image: /assets/img/committee-members/david_yehudah.png
+  email: davidyehudah14@gmail.com
+  phone-number: +263784957821
+  linkedin: #
+
+- name: Rufaro Chigaazira
   member: 89
-  position: Vice President
+  position: Public Relations Officer
   image: aman.jpg
   email: michellevanderh@outlook.com
-  phone-number: 263714888342
-  bio: Aman is a 4th year student studying Computer Science. He is passionate about technology and its potential to change the world. He is also a strong advocate for diversity and inclusion in the tech industry. In his free time, he enjoys reading, writing, and playing the guitar.
+  phone-number: +263712895214
   linkedin: https://www.linkedin.com/in/aman-bhargava/
 
 - name: Michelle van der Heiden
   member: 67
   position: SCORA Director
-  image: /assets/img/committee-directors/scora.jpg
+  image: /assets/img/committee-members/scora.jpg
   email: michellevanderh@outlook.com
   phone-number: 263714888342
-  bio: Michelle is a 4th year student studying Computer Science. She is passionate about technology and its potential to change the world. She is also a strong advocate for diversity and inclusion in the tech industry. In her free time, she enjoys reading, writing, and playing the guitar.
   linkedin: https://www.linkedin.com/in/michelle-van-der-heiden-2878ab14b

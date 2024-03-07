@@ -2,7 +2,10 @@
 layout: program-layout
 title: Sexual & Reproductive Health and Rights including HIV & AIDS
 image: /assets/img/logos/scora.png
-description: "Something here"
+description: "A gathering of passionate individuals
+who are committed to promote sexual and
+reproductive health and rights and are arduous about
+creating positive change in their local communities."
 standing-committee: SCORA
 permalink: /scora/
 member: 67
