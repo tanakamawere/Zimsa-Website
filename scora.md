@@ -1,11 +1,38 @@
 ---
 layout: program-layout
-title: Forgot what this is
+title: Sexual & Reproductive Health and Rights including HIV & AIDS
 image: /assets/img/logos/scora.png
-description: SCORA stands for what again
+description: ""
 permalink: /scora/
+director-name: Michelle van der Heiden
+director-phone: 263714888342
+director-email: michellevanderh@outlook.com
+director-picture: /assets/img/committee-directors/scora.jpg
 ---
 
-Here is another lorem ipsum I have to make up because the internet is being shoddy. Again still
+The Zimbabwe Medical Student’s Association,
+(ZiMSA) Standing Committee on Sexual and
+Reproductive Health and Rights including HIV and
+AIDS (SCORA) is a gathering of passionate individuals
+who are committed to promote sexual and
+reproductive health and rights and are arduous about
+creating positive change in their local communities.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt tellus eu purus lacinia, ut bibendum lectus ultricies. Ut mauris dui, consequat interdum neque in, accumsan pretium mi. Phasellus sit amet tortor gravida, lobortis tellus eget, convallis orci. Vestibulum hendrerit, dolor vel fermentum tempus, metus nisi bibendum nisi, at scelerisque felis diam ut ipsum. Duis suscipit risus in dui rutrum, et varius dolor venenatis. Phasellus condimentum tellus risus, et congue diam dignissim ut. Proin in dapibus felis, sit amet tincidunt risus. Pellentesque tellus diam, vulputate eu nisl eu, pretium gravida erat. Donec eu neque risus. Morbi hendrerit dolor eu efficitur accumsan.
+SCORA focuses on issues related to reproductive
+health, HIV\AIDS, sexually transmitted infections
+(STIs), gender equality, maternal health, and gender-based violence.
+
+
+SCORA gathers passionate individuals who are
+committed to promoting sexual and reproductive
+health in their community and fight for individual’s
+rights to information and education. 
+
+SCORA members are incorrigible optimists who, with their positive
+energy, try to break down all the obstacles and taboo
+topics of this society. 
+
+SCORA’s vision is that every
+person should be equally aware of their sexual and
+reproductive health, in a world without stigma and
+discrimination.
