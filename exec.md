@@ -29,6 +29,6 @@ title: National Executive Committee
             </div>
             </div>
         </div>
-        {% endfor %}
+    {% endfor %}
   </div>
 </div>
