@@ -7,6 +7,7 @@ description: A gathering of passionate individuals who are committed to promote 
   in their local communities.
 standing-committee: SCORA
 member: 67
+Newsletters: "/uploads/SCORA%20ZIMSA%20NEWSLETTER%20Vol.01.pdf\n"
 layout: program-layout
 ---
 
