@@ -1,9 +1,9 @@
 ---
 title: Medical Exchange (SCOME)
 permalink: "/scome/"
-layout: program-layout
 image: "/assets/img/logos/scome.png"
-description: What on earth does this do?
+description: 'Brief description '
+layout: program-layout
 ---
 
 # SCOME page is right here. SANdakfd
