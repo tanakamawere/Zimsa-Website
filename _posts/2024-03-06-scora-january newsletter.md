@@ -4,16 +4,12 @@ title: The Experiences of Marginalised Groups in accessing Sexual and Reproducti
 date: 2024-03-06 19:00:00 Z
 categories:
 - Scora
-tags:
-- Test
-- Example
 summary: "Access to Sexual and Reproductive Health (SRH) services is an important
   aspect of overall\nhealth and well-being for all individuals, including marginalized
   groups. "
-image: "/assets/img/logos/imunzi.png"
 standing-committee:
 - SCORA
-author: Michel van der Heiden
+author: Michelle van der Heiden
 layout: post-layout
 ---
 
