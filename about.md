@@ -1,7 +1,7 @@
 ---
-layout: post-layout
 title: About Zimsa
-permalink: /about/
+permalink: "/about/"
+layout: post-layout
 ---
 
 # Introduction

@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Executive Committee
+permalink: "/nec"
+layout: default
 description: Information about the executive committee of Zimsa Website.
-image: /assets/img/logos/scome.png
-permalink: /nec
+image: "/assets/img/logos/scome.png"
 ---
 
 <div class="container">

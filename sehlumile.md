@@ -1,10 +1,11 @@
 ---
-layout: program-layout
 title: Sehlumile
-image: /assets/img/logos/sehlumile.png
-description: Sehlumile is a comprehensive program designed to combat period poverty by distribution of reusable pads to underprivileged girls in Zimbabwe
+permalink: "/sehlumile/"
+layout: program-layout
+image: "/assets/img/logos/sehlumile.png"
+description: Sehlumile is a comprehensive program designed to combat period poverty
+  by distribution of reusable pads to underprivileged girls in Zimbabwe
 standing-committee: Sehlumile
-permalink: /sehlumile/
 member: 1001
 ---
 
