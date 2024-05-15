@@ -24,9 +24,7 @@ collections: # A list of collections the CMS should be able to edit
       - {
           label: "Post Image", 
           name: "image", 
-          widget: "image", 
-          choose_url: true,
-          allow_multiple: false,
+          widget: "string", 
           required: true}
       - {
           label: "Standing Committee", 
