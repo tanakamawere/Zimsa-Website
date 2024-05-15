@@ -44,4 +44,15 @@ collections: # A list of collections the CMS should be able to edit
           ]
         }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-    
+  - label: "Executive Committee"
+    name: "executive-committee"
+    folder: "_data"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Member ID", name: "member", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Phone Number", name: "phone-number", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
