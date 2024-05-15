@@ -1,9 +1,9 @@
 ---
 title: Rare Diseases Initiative
 permalink: "/rare-diseases/"
-layout: program-layout
 image: "/assets/img/logos/rare-diseases-initiative.png"
-description: What on earth does this do?
+description: 'Brief description '
+layout: program-layout
 ---
 
-Haemophilias and what what, many other things I don't recall.
+Rare disease initiative description 
