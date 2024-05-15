@@ -5,7 +5,7 @@ backend:
   branch: main # Branch to update (master by default)
 
 media_folder: "assets/img" # Folder where user uploaded files should go
-public_folder: "/assets/img" # The path to the folder where the files are stored
+public_folder: "assets" # The path to the folder where the files are stored
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -18,10 +18,32 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post-layout"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "string", required: true}
-      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: true}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Summary", name: "summary", widget: "string", required: false}
-      - {label: "Post Image", name: "image", widget: "string", required: true}
-      - {label: "Standing Committee", name: "standing-committee", widget: "select", options: ["SCORA", "SCOPE", "SCORE", "SCOPH", "SCOME", "SCORP"], required: true}
+      - {
+          label: "Post Image", 
+          name: "image", 
+          widget: "image", 
+          choose_url: true,
+          allow_multiple: false,
+          required: true}
+      - {
+          label: "Standing Committee", 
+          name: "standing-committee", 
+          widget: "select",  
+          required: true,
+          options: [
+            {label: "SCORE", value: "SCORE"},
+            {label: "SCORA", value: "SCORA"},
+            {label: "SCOPH", value: "SCOPH"},
+            {label: "SCOME", value: "SCOME"},
+            {label: "SCORP", value: "SCORP"},
+            {label: "SCOPE", value: "SCOPE"},
+            {label: "Imunzi", value: "Imunzi"},
+            {label: "Rare Diseases", value: "Rare"},
+            {label: "Sehlumile", value: "Sehlumile"},
+          ]
+        }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
     
