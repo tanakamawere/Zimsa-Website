@@ -8,7 +8,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   commodo nulla facilisi nullam. Consectetur adipiscing elit duis tristique
   sollicitudin nibh sit. Sit amet massa vitae tortor condimentum lacinia quis
   vel eros. Sapien eget mi proin sed. Id diam vel quam elementum pulvinar.
-image: assets/img/_cfd49464-c917-480c-8c36-77dbf70323a2.jpeg
+image: https://th.bing.com/th/id/OIP.TQjs2_m_qVd_J_lVAtHADgHaEo?w=313&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7
 standing-committee: Rare
 date: 2024-05-27 09:45:00
 ---
