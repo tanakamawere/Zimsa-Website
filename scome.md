@@ -7,5 +7,3 @@ standing-committee: SCOME
 member: 67
 layout: program-layout
 ---
-
-# SCOME page is right here. SANdakfd
