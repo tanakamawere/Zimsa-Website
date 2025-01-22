@@ -1,6 +1,6 @@
 ---
 title: Sexual & Reproductive Health and Rights including HIV & AIDS
-permalink: "/scora/"
+permalink: "/scora"
 image: "/assets/img/logos/scora.png"
 description: A gathering of passionate individuals who are committed to promote sexual
   and reproductive health and rights and are arduous about creating positive change

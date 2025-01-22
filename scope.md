@@ -1,6 +1,6 @@
 ---
 title: Professional Exchange
-permalink: "/scope/"
+permalink: "/scope"
 image: "/assets/img/logos/scope.png"
 description: 'Brief description'
 standing-committee: SCOPE

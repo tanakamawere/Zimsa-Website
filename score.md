@@ -1,6 +1,6 @@
 ---
 title: Research Exchange
-permalink: "/score/"
+permalink: "/score"
 image: "/assets/img/logos/score.png"
 description: 'Brief description'
 standing-committee: SCORE

@@ -1,6 +1,6 @@
 ---
 title: Human Rights & Peace
-permalink: "/scorp/"
+permalink: "/scorp"
 image: "/assets/img/logos/scorp.png"
 description: 'Brief description'
 standing-committee: SCORP

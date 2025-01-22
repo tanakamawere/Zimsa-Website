@@ -1,6 +1,6 @@
 ---
 title: Sehlumile
-permalink: "/sehlumile/"
+permalink: "/sehlumile"
 layout: program-layout
 image: "/assets/img/logos/sehlumile.png"
 description: Sehlumile is a comprehensive program designed to combat period poverty
