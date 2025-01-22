@@ -1,78 +1,76 @@
  
-<header data-bs-theme="light" class="mb-5">
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <img src="/assets/img/zimsa-logo.png" alt="..." width="160" height="68">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About Us
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="/about">
-              About
-              </a>
-            </li>
-            <li><a class="dropdown-item" href="/nec">Executive Committee</a></li>
-            <li><a class="dropdown-item" href="/constitution">Our Constitution</a></li>
-          </ul>
-        </li>
-
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Programs
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="/imunzi">
-                <img src="/assets/img/logos/imunzi.png" alt="" class="img-fluid link-img"/>
-              Imunzi
-              </a>
-            </li>
-            <li><a class="dropdown-item" href="/sehlumile">
-              <img src="/assets/img/logos/sehlumile.png" alt="" class="img-fluid link-img"/>Sehlumile</a></li>
-            <li><a class="dropdown-item" href="/rare-diseases">
-              <img src="/assets/img/logos/rare-diseases-initiative.png" alt="" class="img-fluid link-img"/>Rare Diseases Initiative</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/articles">Articles</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Standing Committees
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/score">
-              <img src="/assets/img/logos/score.png" alt="" class="img-fluid link-img"/>Research Exchanges (SCORE)</a></li>
-            <li><a class="dropdown-item" href="/scope">
-              <img src="/assets/img/logos/scope.png" alt="" class="img-fluid link-img"/>Professional Exchanges (SCOPE)</a></li>
-            <li><a class="dropdown-item" href="/scome">
-              <img src="/assets/img/logos/scome.png" alt="" class="img-fluid link-img"/>Medical Education (SCOME)</a></li>
-            <li><a class="dropdown-item" href="/scorp">
-              <img src="/assets/img/logos/scorp.png" alt="" class="img-fluid link-img"/>Human Rights & Peace (SCORP)</a></li>
-            <li><a class="dropdown-item" href="/scoph">
-              <img src="/assets/img/logos/scoph.png" alt="" class="img-fluid link-img"/>Public Health (SCOPH)</a></li>
-            <li><a class="dropdown-item" href="/scora">
-              <img src="/assets/img/logos/scora.png" alt="" class="img-fluid link-img"/>Sexual & Reproductive Health and Rights (SCORA)</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Join Us</a>
-        </li>
-      </ul>
+<header id="header" class="header sticky-top">
+  <div class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
     </div>
+  </div><!-- End Top Bar -->
+
+  <div class="branding d-flex align-items-center">
+
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      <a href="/" class="logo d-flex align-items-center me-auto">
+        <img src="/assets/img/zimsa-logo.png" alt="" width="100" height="68">
+        <!-- <h1 class="sitename">Zimsa</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/" class="active">Home<br></a></li>
+          <li class="dropdown"><a href="#"><span>Standing Committees</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/score">
+                <img src="/assets/img/logos/score.png" alt="" class="img-fluid link-img"/>Research Exchanges (SCORE)</a></li>
+              <li><a class="dropdown-item" href="/scope">
+                <img src="/assets/img/logos/scope.png" alt="" class="img-fluid link-img"/>Professional Exchanges (SCOPE)</a></li>
+              <li><a class="dropdown-item" href="/scome">
+                <img src="/assets/img/logos/scome.png" alt="" class="img-fluid link-img"/>Medical Education (SCOME)</a></li>
+              <li><a class="dropdown-item" href="/scorp">
+                <img src="/assets/img/logos/scorp.png" alt="" class="img-fluid link-img"/>Human Rights & Peace (SCORP)</a></li>
+              <li><a class="dropdown-item" href="/scoph">
+                <img src="/assets/img/logos/scoph.png" alt="" class="img-fluid link-img"/>Public Health (SCOPH)</a></li>
+              <li><a class="dropdown-item" href="/scora">
+                <img src="/assets/img/logos/scora.png" alt="" class="img-fluid link-img"/>Sexual & Reproductive Health and Rights (SCORA)</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li>
+                <a class="dropdown-item" href="/imunzi">
+                  <img src="/assets/img/logos/imunzi.png" alt="" class="img-fluid link-img"/>
+                Imunzi
+                </a>
+              </li>
+              <li><a class="dropdown-item" href="/sehlumile">
+                <img src="/assets/img/logos/sehlumile.png" alt="" class="img-fluid link-img"/>Sehlumile</a></li>
+              <li><a class="dropdown-item" href="/rare-diseases">
+                <img src="/assets/img/logos/rare-diseases-initiative.png" alt="" class="img-fluid link-img"/>Rare Diseases Initiative</a></li>
+            </ul>
+          </li>
+          
+          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="/nec">Executive Committee</a></li>
+              <li><a class="dropdown-item" href="/constitution">Our Constitution</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="cta-btn d-none d-sm-block" href="#appointment">Join Us!</a>
+
+    </div>
+
   </div>
-</nav>
+
 </header>

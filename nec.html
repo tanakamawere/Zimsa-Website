@@ -1,0 +1,45 @@
+---
+title: Executive Committee
+permalink: "/nec"
+layout: default
+description: Information about the executive committee of Zimsa Website.
+image: "/assets/img/logos/scome.png"
+---
+
+  <section id="doctors" class="doctors section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Committee</h2>
+      <p>The people leading Zimsa this season...</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+  
+      <div class="row gy-4">
+        {% for member in site.data.execcommittee %}
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="{{ member.image }}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>{{ member.name }}</h4>
+                <span>{{ member.position }}</span>
+                <p>{{ member.bio }}</p>
+                <div class="social">
+                  <a href="tel:{{ member.phone-number }}"><i class="bi bi-telephone-fill"></i></a>
+                  <a href="https://wa.me/{{ member.phone-number }}"><i class="bi bi-whatsapp"></i></a>
+                  <a href="mailto:{{ member.email }}"><i class="bi bi-envelope"></i></a>
+                  <a href="{{ member.linkedin }}"> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        {% endfor %}
+    </div>
+
+    </div>
+
+  </section><!-- /Doctors Section -->
+
+</div>

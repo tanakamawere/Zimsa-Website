@@ -5,7 +5,7 @@ layout: default
 <div class="container">
     <div class="row align-items-center justify-content-center">
         <div class="col-xl-6 col-xxl-6 text-center">
-            <img class="rounded-top rounded-bottom img-fluid image-sized" src="{{ page.image }}" />
+            <img class="rounded-top rounded-bottom img-fluid image-sized" style="max-width:10rem;" src="{{ page.image }}" />
         </div>
         <div class="col-lg-6 col-xl-6 col-xxl-4">
             <div class="my-5 text-center text-xl-start">
@@ -19,8 +19,6 @@ layout: default
         </div>
     </div>
     <hr class="divider" />
-
-    
 
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
@@ -47,14 +45,5 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-    </div>
-
-    {% assign recentArticles = site.posts | where: "standing-committee", page.standing-committee | limit: 3 %}
-
-    <h2 class="display-6 fw-bold">Recent {{ page.standing-committee}} Articles</h2>
-    <div class="row">
-        {% for post in recentArticles %}
-            {% include article-control.html %}
-        {% endfor %}
     </div>
 </div>

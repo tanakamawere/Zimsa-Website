@@ -7,5 +7,3 @@ standing-committee: SCOPE
 member: 67
 layout: program-layout
 ---
-
-SCOPE Page

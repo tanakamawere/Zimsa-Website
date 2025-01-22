@@ -8,51 +8,93 @@ media_folder: "assets/img" # Folder where user uploaded files should go
 public_folder: "assets" # The path to the folder where the files are stored
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post-layout"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "list", required: true}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Summary", name: "summary", widget: "string", required: false}
-      - {
-          label: "Post Image", 
-          name: "image", 
-          widget: "string", 
-          required: true}
-      - {
-          label: "Standing Committee", 
-          name: "standing-committee", 
-          widget: "select",  
-          required: true,
-          options: [
-            {label: "SCORE", value: "SCORE"},
-            {label: "SCORA", value: "SCORA"},
-            {label: "SCOPH", value: "SCOPH"},
-            {label: "SCOME", value: "SCOME"},
-            {label: "SCORP", value: "SCORP"},
-            {label: "SCOPE", value: "SCOPE"},
-            {label: "Imunzi", value: "Imunzi"},
-            {label: "Rare Diseases", value: "Rare"},
-            {label: "Sehlumile", value: "Sehlumile"},
-          ]
-        }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-  - label: "Executive Committee"
-    name: "executive-committee"
-    folder: "_data"
+  - name: "blog" # Identifier for the blog collection
+    label: "Blog Posts" # Display name in the CMS
+    folder: "_posts" # Folder where posts are stored
+    create: true # Allow creating new posts
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename format
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Standing Committee", name: "committee", widget: "select", options: [
+          {label: "SCORE", value: "SCORE"},
+          {label: "SCORA", value: "SCORA"},
+          {label: "SCOPH", value: "SCOPH"},
+          {label: "SCOME", value: "SCOME"},
+          {label: "SCORP", value: "SCORP"},
+          {label: "SCOPE", value: "SCOPE"},
+          {label: "Imunzi", value: "Imunzi"},
+          {label: "Rare Diseases", value: "Rare"},
+          {label: "Sehlumile", value: "Sehlumile"}
+        ]}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - name: "gallery"
+        label: "Image Gallery"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "programs"
+    label: "Programs"
+    folder: "_data/programs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Program Name"
+        name: "name"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+      - label: "Contact Email"
+        name: "email"
+        widget: "string"
+      - label: "Contact Phone"
+        name: "phone"
+        widget: "string"
+      - label: "Committee Member In Charge"
+        name: "committee_member"
+        widget: "relation"
+        collection: "committee"  # Reference the committee collection
+        search_fields: ["name"]  # Field to search for
+        value_field: "name"      # Field to store in the file
+        display_fields: ["name"] # Field to display in the CMS
+      - label: "Social Media Links"
+        name: "social_links"
+        widget: "list"
+        label_singular: "Link"
+        fields:
+          - label: "Platform"
+            name: "platform"
+            widget: "string"
+          - label: "URL"
+            name: "url"
+            widget: "string"
+      - label: "Additional Images"
+        name: "gallery"
+        widget: "list"
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+  - name: "committee"
+    label: "Committee Members"
+    folder: "_data/committee"
     create: true
     fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Member ID", name: "member", widget: "string"}
-      - {label: "Position", name: "position", widget: "string"}
-      - {label: "Image", name: "image", widget: "string"}
-      - {label: "Email", name: "email", widget: "string"}
-      - {label: "Phone Number", name: "phone-number", widget: "string"}
-      - {label: "LinkedIn", name: "linkedin", widget: "string"}
+      - { name: "name", label: "Name", widget: "string" }
+      - { name: "member", label: "Member ID", widget: "number" }
+      - { name: "position", label: "Position", widget: "string" }
+      - { name: "bio", label: "Biography", widget: "text" }
+      - { name: "image", label: "Image", widget: "image", media_folder: "/assets/img/committee-members", public_folder: "/assets/img/committee-members" }
+      - { name: "email", label: "Email", widget: "string" }
+      - { name: "phone-number", label: "Phone Number", widget: "string" }
+      - { name: "linkedin", label: "LinkedIn", widget: "string", required: false }

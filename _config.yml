@@ -1,19 +1,24 @@
----
-title: Zimsa
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-email: your-email@example.com
-description: Zimsa is the home for all the medical students in Zimbabwe. Take a look
-  and see what we are up to!
 baseurl: "/"
 url: https://zimsa.org
-twitter_username: jekyllrb
-github_username: jekyll
+title: Zimsa
+timezone: UTC
+# collections:
+#   posts:
+#     title: Posts
+#     output: true
+#   uploads:
+#     title: Uploads
+#     output: true
+description: "New Age Motors is a trusted Car Repair Centre offering reliable auto repair and maintenance services, from routine oil changes and brake repairs to advanced diagnostics and engine work. Our expert technicians ensure quality and customer satisfaction, giving you confidence on the road."
+author: "Zimsa"
+email: "pro@zimsa.org.zw"
+phone: "+263 77 189 0416"
+address: "1234 New Age Street, Harare, Zimbabwe"
+social:
+  twitter: "https://twitter.com/zimsa"
+  facebook: "https://facebook.com/zimsa"
+  instagram: "https://instagram.com/zimsa"
+  whatsapp: "https://wa.me/263771890416"
+  linkedin: "https://linkedin.com/zimsa"
 plugins:
 - jekyll-feed
