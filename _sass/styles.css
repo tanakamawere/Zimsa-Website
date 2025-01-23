@@ -1057,9 +1057,6 @@
     left: calc(50% - 47px);
     top: calc(50% - 47px);
   }
-  .link-img{
-    max-width: 50px;
-}
   
   /*--------------------------------------------------------------
   # Stats Section
@@ -1729,4 +1726,8 @@
   --------------------------------------------------------------*/
   .starter-section {
     /* Add your styles here */
+  }
+  
+  .link-img{
+    max-width: 50px;
   }
