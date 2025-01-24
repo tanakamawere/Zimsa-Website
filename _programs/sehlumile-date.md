@@ -1,6 +1,8 @@
 ---
 name: Sehlumile
-permalink: "{{slug}}"
+permalink: "Sehlumile"
+url: "https://zimsa.org/programs/sehlumile"
+layout: program
 description: >-
   Sehlumile is a comprehensive program designed to combat period poverty by
   distribution of reusable pads to underprivileged girls in Zimbabwe. 
@@ -17,7 +19,7 @@ email: admin@zimsa.org
 phone: "0785468923"
 committee_member: Tanaka Mawere
 social_links:
-  - platform: Instagram
+  - platform: instagram
     url: https://instagram.com
 gallery:
   - image: assets/zimsa-logo.png

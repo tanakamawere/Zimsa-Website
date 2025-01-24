@@ -10,28 +10,26 @@ layout: default
         <div class="col-lg-6 col-xl-6 col-xxl-4">
             <div class="my-5 text-center text-xl-start">
                 <h1 class="fw-bolder">
-                    {{ page.title }}
+                    {{ page.name }}
                 </h1>
             </div>
         </div>
     </div>
     <hr class="divider" />
 
-    
     <p>
         {{ page.description }}
     </p>
 
     <div class="social-links">
         <h2>Social Media Links</h2>
-        <ul>
-          {% for link in page.social_links %}
-            <li>
-              <a href="{{ link.url }}" target="_blank">{{ link.platform }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+        
+      <div class="social-links d-none d-md-flex align-items-center">
+        {% for link in page.social_links %}
+            <a href="{{ link.url }}" class="{{ link.platform }}"><i class="bi bi-{{ link.platform }}"></i></a>
+        {% endfor %}
       </div>
+    </div>
 
     <div class="gallery">
         <h2>Gallery</h2>

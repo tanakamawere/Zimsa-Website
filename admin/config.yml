@@ -40,10 +40,12 @@ collections: # A list of collections the CMS should be able to edit
     label: "Programs"
     folder: "_programs"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}-{{permalink}}"
     fields:
       - {label: "Program Name", name: "name", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: "{{slug}}"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "{{name}}"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "program"}
+      - {label: "Url", name: "url", widget: "hidden", default: "https://zimsa.org/programs/{{name}}"}
       - {label: "Description",name: "description", widget: "markdown"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Contact Email", name: "email", widget: "string"}
