@@ -12,17 +12,45 @@ layout: default
                 <h1 class="fw-bolder">
                     {{ page.title }}
                 </h1>
-                <p>
-                    {{ page.description }}
-                </p>
             </div>
         </div>
     </div>
     <hr class="divider" />
 
+    
+    <p>
+        {{ page.description }}
+    </p>
+
+    <div class="social-links">
+        <h2>Social Media Links</h2>
+        <ul>
+          {% for link in page.social_links %}
+            <li>
+              <a href="{{ link.url }}" target="_blank">{{ link.platform }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="images">
+          {% for image in page.gallery %}
+            <figure>
+              <img src="{{ image.image }}" alt="{{ image.caption }}">
+              <figcaption>{{ image.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      </div>
+
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-            {{ content }}
+            <div class="committee-member">
+                <h2>Committee Member In Charge</h2>
+                <p>{{ page.committee_member }}</p>
+              </div>
             
             <div>
                 {% assign director = page.member %}

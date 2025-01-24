@@ -13,3 +13,9 @@ social:
   instagram: "https://instagram.com/zimsa"
   whatsapp: "https://wa.me/263771890416"
   linkedin: "https://linkedin.com/zimsa"
+
+collections:
+  committee:
+    output: true
+  programs:
+    output: true

@@ -38,13 +38,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "programs"
     label: "Programs"
-    folder: "_data/programs"
+    folder: "_programs"
     create: true
     slug: "{{slug}}"
     fields:
       - label: "Program Name"
         name: "name"
         widget: "string"
+      - label: "Permalink"
+        name: "permalink"
+        widget: "hidden"
+        default: "{{slug}}"
       - label: "Description"
         name: "description"
         widget: "markdown"
@@ -87,7 +91,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "string"
   - name: "committee"
     label: "Committee Members"
-    folder: "_data/committee"
+    folder: "_committee"
     slug: "{{name}}-{{position}}" # Filename format
     create: true
     fields:
