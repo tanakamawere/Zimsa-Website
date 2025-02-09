@@ -1,10 +1,11 @@
 ---
-name: Meh
+name: Anna Munir
 member: 36
 position: President
-bio: I like eating fish
-image: /assets/img/committee-members/catherine_chiware.jpg
-email: tanakamawere15@gmail.com
-phone-number: "07"
-linkedin: https://linkedin.com/in/tanakamawere
+bio: Passionate medical student and entrepreneur, dedicated to empowering future
+  healthcare professionals.
+image: /assets/img/committee-members/img_1418.png
+email: zimsa-zimbabwe@ifmsa.org
+phone-number: "+263772940912"
+linkedin: ""
 ---
