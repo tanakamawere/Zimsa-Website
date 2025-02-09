@@ -1,10 +1,10 @@
 ---
-name: Tanaka Mawere
+name: Meh
 member: 36
 position: President
 bio: I like eating fish
-image: /assets/img/committee-members/1000562489.jpg
+image: /assets/img/committee-members/catherine_chiware.jpg
 email: tanakamawere15@gmail.com
-phone-number: "0785468923"
+phone-number: "07"
 linkedin: https://linkedin.com/in/tanakamawere
 ---
