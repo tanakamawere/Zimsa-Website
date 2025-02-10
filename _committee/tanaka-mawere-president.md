@@ -1,10 +1,11 @@
 ---
-name: Tanaka Mawere
+name: Anna Munir
 member: 36
 position: President
-bio: I like eating fish
-image: /assets/img/committee-members/1000562489.jpg
-email: tanakamawere15@gmail.com
-phone-number: "0785468923"
-linkedin: https://linkedin.com/in/tanakamawere
+bio: Passionate medical student and entrepreneur, dedicated to empowering future
+  healthcare professionals.
+image: /assets/img/committee-members/img_1418.png
+email: zimsa-zimbabwe@ifmsa.org
+phone-number: "+263772940912"
+linkedin: ""
 ---
