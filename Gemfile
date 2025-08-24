@@ -1,6 +1,12 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2"
+# Core dependencies
+gem "webrick"        # Needed for local Jekyll server on Ruby 3.x
+gem "jekyll"         # Main site generator
+gem "csv"            # Ruby 3.4+ no longer includes this by default
+gem "logger"    
+gem "base64"     # Future-proofing: Ruby 3.5+ removes from default gems
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
